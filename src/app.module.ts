@@ -16,8 +16,7 @@ import { join } from 'path';
     }),
     TypeOrmModule.forRoot({
       type: 'mongodb',
-      url:
-        'mongodb+srv://imstp:ZqGvJ7kvB9Jn8La9@cluster0.vkijm.mongodb.net/imstp',
+      url: '',
       entities: [join(__dirname, '**/**.model{.ts,.js}')],
       synchronize: true,
       useNewUrlParser: true,
